@@ -1,0 +1,6 @@
+#+TITLE: Readme
+
+* Getting start
+** Current work
+*** TODO Charging and boot the bot
+*** TODO Run demo
