@@ -4,3 +4,6 @@
 ** Current work
 *** TODO Charging and boot the bot
 *** TODO Run demo
+
+** Charging
+The bot using 12V power supply(Max 12.8V), rated current is 1A. And you can find the power supply in the lab.
