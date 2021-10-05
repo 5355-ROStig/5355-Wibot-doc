@@ -1,9 +1,15 @@
 #+TITLE: Readme
 
 * Getting start
+** Reference
+[[https://www.wifibot.com/][Wifibot Official Website]]
+[[https://www.wifibot.com/download/2012/wifibotlab_english_guide2012_V4.pdf][Wifibot Official guide]]
 ** Current work
 *** TODO Charging and boot the bot
 *** TODO Run demo
 
 ** Charging
-The bot using 12V power supply(Max 12.8V), rated current is 1A. And you can find the power supply in the lab.
++The bot using 12V power supply(Max 12.8V), rated current is 1A. And you can find the power supply in the lab.+
+*** For development:
++ *Directly connected to DC:* 14.8V, 3.8A.(When connected to DC, if you try to drive the wifibot, it will turn off.)
++ *Charging port:* 13-15V,3.8A(Need to be *turned off*)
