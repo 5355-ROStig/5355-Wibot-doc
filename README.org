@@ -20,3 +20,5 @@ When you reinstall/re-compile/build your own ROS driver, troubleshooting, or you
 
 ** LiDAR
 The power of LiDAR is controlled by the chassis controller, so if you found the LiDAR does not power on, please start the roswifibot driver, it will power on the LiDAR.
+
+After the LiDAR powered on, you can see the */dev/ttyACM0* device.
