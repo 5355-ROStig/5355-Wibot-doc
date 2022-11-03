@@ -10,4 +10,13 @@
 + For the two WIFIBot *Without LiDAR*, use the charger to charge directly. 
 + For the WIFIBot *With LiDAR*, because it doesn't have the adapter inside, and the charge port *directly connected to the battery! (be aware of this, don't short the cable while it is connected to this port)*. So please use the DC Power supply to charge. Set *voltage to 16.8V*, maximum current can be set to 4A. This WIFIBot use 3 Li-ion Battery packs in parallel connection. Each Battery pack contains four 3.7V Li-ion cells in serial connection, so the battery pack mominal voltage is 14.8V, charge voltage is 16.8V. Check https://github.com/5355-ROStig/5355-Wibot-doc/blob/main/battery.pdf for more details about the battery pack.
 
+** Serial connection from PC to the chassis controller 
+The communication between the on-board PC and chassis is by UART(Serial port).
+When you reinstall/re-compile/build your own ROS driver, troubleshooting, or you want to do something special with the chassis.
+1. Check the above link of WIFIBot website and the spec pdf, to get more details(incl. the low-level protocol of the controller).
+2. Be aware of the serial connection:
++ For the WIFIBot with LiDAR, the controller connected directly to the motherboard on-board serial port, so in Linux, it should be */dev/ttyS0 or ttyS1* something.
++ For the two WIFIBot without LiDAR, it is connected thought a USB to Serial adapter, so the port should be */dev/ttyUSB0 or ttyUSB1* something.
 
+** LiDAR
+The power of LiDAR is controlled by the chassis controller, so if you found the LiDAR does not power on, please start the roswifibot driver, it will power on the LiDAR.
