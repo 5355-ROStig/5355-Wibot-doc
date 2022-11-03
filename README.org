@@ -9,7 +9,8 @@
 *** TODO Run demo
 
 ** Charging
-+The bot using 12V power supply(Max 12.8V), rated current is 1A. And you can find the power supply in the lab.+
 *** For development:
-+ *Directly connected to DC:* 14.8V, 3.8A.(When connected to DC, if you try to drive the wifibot, it will turn off.)
-+ *Charging port:* 13-15V,3.8A(Need to be *turned off*)
++ For the two WIFIBot *Without LiDAR*, use the charger to charge directly. 
++ For the WIFIBot *With LiDAR*, because it doesn't have the adapter inside, and the charge port *directly connected to the battery! (be aware of this, don't short the cable while it is connected to this port)*. So please use the DC Power supply to charge. Set *voltage to 16.8V*, maximum current can be set to 4A. This WIFIBot use 3 Li-ion Battery packs in parallel connection. Each Battery pack contains four 3.7V Li-ion cells in serial connection, so the battery pack mominal voltage is 14.8V, charge voltage is 16.8V. Check https://github.com/5355-ROStig/5355-Wibot-doc/blob/main/battery.pdf for more details about the battery pack.
+
+
