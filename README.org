@@ -4,9 +4,6 @@
 ** Reference
 [[https://www.wifibot.com/][Wifibot Official Website]]
 [[https://www.wifibot.com/download/2012/wifibotlab_english_guide2012_V4.pdf][Wifibot Official guide]]
-** Current work
-*** TODO Charging and boot the bot
-*** TODO Run demo
 
 ** Charging
 *** For development:
